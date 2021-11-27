@@ -33,28 +33,7 @@ public class Pibic {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException {
-        /*
-        Arquivo a = new ArquivoPrevisao("C:\\Users\\Edson Da Silva\\Downloads\\pibic\\pibic\\src\\dados\\","serie.txt");
-        try {
-            ((ArquivoPrevisao)a).lerDados();
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-        }
-        Conjunto c = new ConjuntoPrevisao(70,30,1);
-        ((ConjuntoPrevisao)c).criarConjuntos(a);
-        NumerosAleatorios na = new NumerosAleatorios(12345);
-        NeuronioLinear nl = new NeuronioLinear(1, "previsao",na);
-        nl.InicializarParametros();
-        //nl.aprenderGradiente(1000, 0.01, c);
-        nl.aprenderAlgoritmoGenetico(100000, 10, 0.01, c);
-        double[] yTeste = nl.simular(c.getInputTeste());
-        double medidaMSE = nl.mse(c.getTargetTeste(), yTeste);
-        System.out.println("Erro Teste " + medidaMSE);
-        for (int i = 0; i < yTeste.length; i++) {
-            System.out.println(c.getTargetTeste()[i] + "\t" + yTeste[i]);
-        }
-        */
-        Arquivo a = new ArquivoClassificacao("C:\\Users\\Edson Da Silva\\Downloads\\pibic\\pibic\\src\\dados\\","BASE_DIABETIS.txt");
+        Arquivo a = new ArquivoClassificacao("../dados","BASE_DIABETIS.txt");
         try {
             ((ArquivoClassificacao)a).lerDados();
         } catch (IOException e) {
