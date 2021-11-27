@@ -25,7 +25,7 @@ import util.NumerosAleatorios;
 
 /**
  *
- * @author ricardo
+ * @author edson
  */
 public class Pibic {
 
