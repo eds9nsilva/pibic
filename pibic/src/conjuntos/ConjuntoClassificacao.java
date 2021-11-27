@@ -9,7 +9,7 @@ import dados.Arquivo;
 
 /**
  *
- * @author ricardo
+ * @author edson
  */
 public class ConjuntoClassificacao extends Conjunto{
     

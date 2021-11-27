@@ -7,7 +7,7 @@ package conjuntos;
 
 /**
  *
- * @author ricardo
+ * @author edson
  */
 public abstract class Conjunto {
     private double pTreino;
